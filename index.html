@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif; margin: 0; padding: 0; 
+      }
+    nav {
+       background-color: #333; padding: 1em;
+       }
+
+    nav a {
+       color: white; margin: 0 15px; text-decoration: none;
+       }
+
+    section {
+       padding: 40px; 
+      }
+
+    footer { 
+      background: #f1f1f1; text-align: center; padding: 20px;
+     }
+
+    table {
+       width: 100%; border-collapse: collapse; 
+      }
+
+    table, th, td {
+       border: 1px solid #ddd; padding: 10px;
+       }
+
+    th {
+       background-color: #f2f2f2; 
+      }
+
+    form {
+       max-width: 600px; margin: auto;
+       }
+
+    form input, form textarea, form button {
+       display: block; width: 100%; margin-bottom: 10px; padding: 10px; 
+      }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, My name is david okunade I'm a web developer passionate about creating interactive web experiences.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a creative front-end web developer with a strong interest in responsive design and accessibility.</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="work">
+    <h2>My Work</h2>
+    <article>
+      <h3>Project Highlight</h3>
+      <p>This is a demo of one of my projects showcasing animation and responsive design.</p>
+      <video src="WhatsApp Video 2025-06-12 at 18.32.55_102fbc70.mp4" autoplay muted></video>
+    </article>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>position</th>
+          <th>Plans</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2026</td> 
+          <td>Tech Inovator</td>
+          <td>Study More On Web Development</td>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Front-End Developer</td>
+          <td>Build A Suitable Website</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+<footer>
+  mhy
+</footer>
+</body>
+</html>
